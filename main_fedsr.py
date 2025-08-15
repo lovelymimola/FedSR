@@ -11,7 +11,7 @@ import torch
 from utils.options import args_parser
 from utils.base import FedBase
 from utils.network_ShuffleNetV2 import ShuffleNetV2
-from Client.Client_fedproto import train, test, obtain_feature_map
+from Client.Client_fedsr import train, test, obtain_feature_map
 from tqdm import tqdm
 
 class FedProto:
